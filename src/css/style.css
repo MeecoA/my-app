@@ -1,0 +1,261 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace
+}
+
+.nav-bar{
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    background-color: purple;
+}
+.logo{
+    padding-left: 50px;
+    font-weight: bold;
+}
+.container{
+   
+    height: 100vh;
+    background-image: url('https://images.template.net/96273/animated-galaxy-background-ytkdd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-follow-container{
+    height: 100vh;
+    background-image: url('https://images.template.net/96273/animated-galaxy-background-ytkdd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.add-follow-card{
+    color: white;
+    background-color: blueviolet;
+    margin-top: 20px;
+    padding: 30px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.add-follow-card .input {
+    background-color: white;
+    border-radius: 20px;
+}
+.add-follow-card .btn-add-follwer{
+    font-size: 20px;
+}
+
+.container h1 {
+    font-size: 50px;
+    color: white;
+}
+.moon-title{
+    color: gold;
+}
+
+/* .nav-bar:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+    transition: .3s;
+} */
+    
+.card{
+    color: white;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    margin-top: 20px;
+    background: url('https://images.template.net/96273/animated-galaxy-background-ytkdd.jpg');
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.card:hover{
+    scale: 1.1;
+    transition:100ms; 
+    box-shadow: 1px 0px 119px 10px rgba(147,32,148,0.75);
+-webkit-box-shadow: 1px 0px 119px 10px rgba(147,32,148,0.75);
+-moz-box-shadow: 1px 0px 119px 10px rgba(147,32,148,0.75);
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?w=740&t=st=1694494599~exp=1694495199~hmac=2877af44848ad3dab79638abe5df20e7964058ac3b56bb1a73a65abc2bc3a531');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.btn-unfollow{
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.btn-unfollow:hover{
+    scale: 1.1;
+    transition:100ms; 
+    
+}
+.name-card{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?w=740&t=st=1694494599~exp=1694495199~hmac=2877af44848ad3dab79638abe5df20e7964058ac3b56bb1a73a65abc2bc3a531');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.search-box .title{
+    margin-top: 30px;
+}
+.search-box .input {
+    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+    border: 2px solid purple;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.search-box > button{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border: 2px solid purple;
+    border-radius: 20px;
+}
+
+.search-box .username{
+    margin: 0;
+}
+
+ dialog > input  {
+
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border: 2px solid purple;
+    border-radius: 20px;
+
+}
+dialog > button{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border: 2px solid purple;
+    border-radius: 20px;
+    cursor: pointer
+
+}
+
+
+dialog{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    z-index:150;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: purple;
+    border: none;
+}
+
+.search-box p {
+    font-size: 20px;
+}
+
+
+.no-follower-h1 {
+    color: white;
+}
+.show-modal-btn{
+    border: none;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+
+}
+.show-modal-btn:hover{
+    background-color: violet;
+    color: black;
+}
+
+.user-img:hover{
+    scale: 1.03;
+    transition: 1s;
+    /* transform:rotate(360deg); */
+    /* transform: scaleY(1.1); */
+}
+.nav-bar ul{
+    text-decoration: none !important; 
+    color: white; 
+    width: 60%;
+    display: flex;justify-content: space-evenly;
+
+}
+
+.nav-bar ul li {
+    list-style: none;
+
+    color: wheat;
+
+}
+
+
+
+.nav-link { 
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.nav-link:hover { 
+    color: black;
+    transform: scale(1.4);
+    cursor: pointer;
+    transition: .3s;
+}
+
+
